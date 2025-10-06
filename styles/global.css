@@ -37,6 +37,9 @@ h3 {
     margin-inline: auto;
 }
 
+img {
+    max-width: 100%;
+}
 
 a {
     text-decoration: none;
@@ -47,10 +50,6 @@ a:hover {
     color: var(--brand-color-light);
 }
 
-.grid {
-    display: grid;
-}
-
-.grid-flow-col {
-    grid-auto-flow: column;
+main {
+    margin-top: 40px;
 }
